@@ -1,0 +1,92 @@
+/* Tabs Daftar Jual */
+.ant-tabs-ink-bar {
+  background-color: transparent;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-btn {
+  border-radius: 12px;
+  padding: 12px 16px;
+  background-color: #e2d4f0;
+}
+.ant-tabs-nav-list .ant-tabs-tab span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab-active .ant-tabs-tab-btn {
+  border-radius: 12px;
+  padding: 12px 16px;
+  background-color: #7126b5;
+}
+
+.ant-tabs-nav-list .ant-tabs-tab-active span{
+    color: #ffffff;
+}
+
+.ant-tabs-tab-active svg {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+/* additional mobile css */
+@media only screen and (min-width: 768px) {
+  /* tabs daftar jual */
+  .ant-tabs-nav {
+    padding-top: 34px;
+    padding-bottom: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    height: 100%;
+    border-right: 1px solid #ffffff !important;
+  }
+  .ant-tabs-ink-bar {
+    background-color: transparent;
+  }
+
+  .ant-tabs-nav-list .ant-tabs-tab {
+    border-radius: 0;
+    padding: 0;
+    background-color: #ffffff !important;
+  }
+
+  .ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-btn {
+    border-bottom: 1px solid #d0d0d0 !important;
+    margin-top: -14px;
+    padding-top: 0;
+    padding-bottom: 14px;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .ant-tabs-nav-list .ant-tabs-tab #rc-tabs-2-tab-3 {
+    margin-top: -14px;
+  }
+
+  
+  .ant-tabs-nav-list .ant-tabs-tab-active,
+  .ant-tabs-tab-active span {
+    background-color: #ffffff;
+  }
+
+  .ant-tabs-nav-list .ant-tabs-tab-active svg {
+    color: #7126b5;
+    width: 20px;
+    height: 20px;
+  }
+
+  .ant-tabs-tab-active .ant-tabs-tab-btn div {
+    color: #7126b5;
+    outline: none !important;
+  }
+
+  .ant-tabs-content-holder {
+    border: none !important;
+  }
+}

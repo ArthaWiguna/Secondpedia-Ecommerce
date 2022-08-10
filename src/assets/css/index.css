@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.notification::-webkit-scrollbar {
+  display: none !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* untuk seluruh tabs */
+.ant-tabs-ink-bar {
+  background-color: transparent;
+}
+
+/* untuk semua alert */
+.ant-alert .ant-alert-content .ant-alert-message {
+  color: #ffffff;
+}
+
+.ant-alert .ant-alert-close-icon span svg {
+  color: #ffffff;
+  width: 14px;
+  height: 14px;
+  font: bold;
+}
